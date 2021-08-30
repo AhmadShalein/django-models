@@ -3,9 +3,9 @@
 {% block content %}
   <div>
     <a href="{%url 'snack_list'%}">Go to the snack list</a>
-    <h2>{{ Snack.name }}</h2>
-    <p>Purchaser: {{ Snack.purchaser }}</p>
-    <p>Description: {{ Snack.description }}</p>
+    <h2>{{ snack.name }}</h2>
+    <p>Purchaser: {{ snack.purchaser }}</p>
+    <p>Description: {{ snack.description }}</p>
   </div>
 
 {% endblock content %}
